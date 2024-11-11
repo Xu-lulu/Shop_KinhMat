@@ -1,0 +1,27 @@
+.Banner {
+  width: 800px;
+  justify-content: center;
+  .item-image {
+    img {
+      height:300px;
+      width: 84%;
+    }
+  }
+  .ant-carousel {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-right {
+  transition: transform 3s linear;
+}
